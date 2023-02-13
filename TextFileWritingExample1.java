@@ -14,7 +14,7 @@ public class TextFileWritingExample1 {
             writer.write("Hello World");
             writer.write("\r\n");   // write new line
             writer.write("Good morning!");
-            System.out.println("Current Date and Time is: ");
+            System.out.println("Current Date and Time is: test");
 
             writer.close();
         } catch (IOException e) {
