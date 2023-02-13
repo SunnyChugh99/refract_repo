@@ -1,4 +1,4 @@
-public import java.io.FileWriter;
+import java.io.FileWriter;
 import java.io.IOException;
  
 /**
@@ -21,6 +21,4 @@ public class TextFileWritingExample1 {
  
     }
  
-}class TextFileWritingExample1 {
-    
 }
