@@ -10,7 +10,7 @@ public class TextFileWritingExample1 {
 
     public static void main(String[] args) {
         try {
-            FileWriter writer = new FileWriter("User_1_VSCode.txt", true);
+            FileWriter writer = new FileWriter("/User_1_VSCode.txt", true);
             writer.write("Hello World");
             writer.write("\r\n");   // write new line
             writer.write("Good morning!");
