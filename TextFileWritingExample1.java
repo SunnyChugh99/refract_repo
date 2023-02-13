@@ -7,7 +7,7 @@ import java.io.IOException;
  *
  */
 public class TextFileWritingExample1 {
- 
+
     public static void main(String[] args) {
         try {
             FileWriter writer = new FileWriter("/data/User_1_VSCode.txt", true);
